@@ -10,7 +10,7 @@ vocab = ['the', 'cat', 'dog', 'sat', 'ran', 'on', 'mat', 'house', 'a', 'big',
         'PAD', 'END']
 
 #Capturing the prompt that the user will send
-prompt = input("Enter your sentence: ")
+prompt = input("Enter your sentence: ").lower()
 
 #Method for making sure the input is valid
 def input_validation(prompt):
@@ -20,3 +20,10 @@ def input_validation(prompt):
         if word not in vocab:
             print("One word is not in the vocabulary for the llm.")
             sys.exit()
+
+
+def main():
+    input_validation(prompt)
+
+if __name__ == "__main__":
+    main()
