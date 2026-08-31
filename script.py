@@ -5,4 +5,4 @@ vocab = ['the', 'cat', 'dog', 'sat', 'ran', 'on', 'mat', 'house', 'a', 'big',
         'small', 'quickly', 'slowly', 'and', 'is', 'red', 'blue', 'to',
         'PAD', 'END']
 
-print(vocab)
+
